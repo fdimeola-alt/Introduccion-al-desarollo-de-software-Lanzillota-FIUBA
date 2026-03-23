@@ -1,0 +1,3 @@
+122332 Juan Lopez jlopez@fi.uba.ar 8
+100998 Pedro Valdez pvaldez@fi.uba.ar 5
+89032 Carla Simone csimone@fi.uba.ar 7
