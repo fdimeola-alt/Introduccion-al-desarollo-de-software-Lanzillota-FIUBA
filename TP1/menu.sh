@@ -109,13 +109,7 @@ buscar_alumno() {
 #utiliza el grep aplicando el RE ^ que seria al principio para busacr por padron, si lo encuentra lo devuelve
 	echo "Ingrese el Nro de Padron"
 	read PADRON
-	
-	if [[ -z "$PADRON" ]]; then
-        	echo "No ingreso ningun padron."
-        	return
-    	fi
-    	
-    	grep "^${PADRON}" "${ARCHIVO_SALIDA}"
+    grep "^${PADRON}" "${ARCHIVO_SALIDA}"
 }
 
 while true; do
